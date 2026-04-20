@@ -1,5 +1,3 @@
-import { createHash } from "node:crypto";
-
 const currencyFormatter = new Intl.NumberFormat("en-IN", {
   style: "currency",
   currency: "INR",
@@ -16,8 +14,4 @@ export function slugToLabel(value: string) {
 
 export function isAbsoluteUrl(value: string) {
   return /^https?:\/\//i.test(value);
-}
-
-export function createTryOnCacheKey(input: string | Buffer) {
-  return createHash("sha256").update(input).digest("hex");
 }

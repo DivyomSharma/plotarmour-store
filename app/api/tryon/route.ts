@@ -1,4 +1,5 @@
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import Replicate from "replicate";
 import { NextResponse } from "next/server";
@@ -9,7 +10,7 @@ import {
   hasReplicateEnv,
 } from "@/lib/env";
 import { getSupabaseAdminClient } from "@/lib/supabase";
-import { createTryOnCacheKey, isAbsoluteUrl } from "@/lib/utils";
+import { isAbsoluteUrl } from "@/lib/utils";
 import type { GarmentType } from "@/types";
 
 export const runtime = "nodejs";
@@ -29,6 +30,10 @@ function normalizeGarmentType(value: FormDataEntryValue | null): GarmentType {
   }
 
   return "top";
+}
+
+function createTryOnCacheKey(input: string | Buffer) {
+  return createHash("sha256").update(input).digest("hex");
 }
 
 async function resolveGarmentImage(productImageUrl: string, publicId: string) {
