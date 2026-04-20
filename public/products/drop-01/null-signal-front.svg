@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#070707"/>
+  <rect x="54" y="54" width="1092" height="1392" stroke="#F2EEE7" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M420 240H780L838 618L756 1254H616V742H584V1254H444L362 618L420 240Z" fill="#111111" stroke="#F2EEE7" stroke-opacity="0.72" stroke-width="12"/>
+  <path d="M420 520H780" stroke="#FF2A2A" stroke-width="16"/>
+  <path d="M444 678H576V862H444V678Z" stroke="#F2EEE7" stroke-opacity="0.52" stroke-width="10"/>
+  <path d="M624 678H756V862H624V678Z" stroke="#F2EEE7" stroke-opacity="0.52" stroke-width="10"/>
+  <text x="94" y="1314" fill="#F2EEE7" font-size="122" font-family="Arial, sans-serif" letter-spacing="16">NULL SIGNAL</text>
+  <text x="96" y="1404" fill="#FF2A2A" font-size="46" font-family="Arial, sans-serif" letter-spacing="12">CARGO / PANELLED / BLACKOUT</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#F2EEE7"/>
+  <rect x="88" y="88" width="1024" height="1324" stroke="#050505" stroke-opacity="0.15" stroke-width="2"/>
+  <path d="M194 342H1006V1144H194V342Z" fill="#111111"/>
+  <path d="M194 640H1006" stroke="#FF2A2A" stroke-width="30"/>
+  <path d="M254 402H946V1084H254V402Z" stroke="#F2EEE7" stroke-opacity="0.12" stroke-width="6"/>
+  <text x="252" y="560" fill="#F2EEE7" font-size="90" font-family="Arial, sans-serif" letter-spacing="16">PLOT ARMOUR</text>
+  <text x="252" y="1038" fill="#FF2A2A" font-size="180" font-family="Arial, sans-serif" letter-spacing="30">01</text>
+  <text x="96" y="1372" fill="#050505" font-size="46" font-family="Arial, sans-serif" letter-spacing="12">DETAIL / HEAVYWEIGHT FLEECE / OVERSIZED</text>
+</svg>

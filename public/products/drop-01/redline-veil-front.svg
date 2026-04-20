@@ -1,0 +1,10 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#090909"/>
+  <rect x="68" y="68" width="1064" height="1364" stroke="#F2EEE7" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="170" y="220" width="860" height="1060" fill="#121212"/>
+  <path d="M170 470H1030" stroke="#FF2A2A" stroke-width="24"/>
+  <path d="M282 316H918L950 620L880 1188H320L250 620L282 316Z" stroke="#F2EEE7" stroke-opacity="0.75" stroke-width="12"/>
+  <path d="M486 402H714" stroke="#F2EEE7" stroke-width="12"/>
+  <text x="112" y="1322" fill="#F2EEE7" font-size="128" font-family="Arial, sans-serif" letter-spacing="18">REDLINE</text>
+  <text x="112" y="1410" fill="#FF2A2A" font-size="46" font-family="Arial, sans-serif" letter-spacing="12">VEIL HOODIE / SCARLET INTERRUPTION</text>
+</svg>
